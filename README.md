@@ -1,4 +1,4 @@
 # Burp-Extension-URL-Decode
 
 
-During the assessment timeframe, the application was sending URL encoded message under parameter "message". So this extension helps to URL decode the message and then encodes the modified to be send to the server.
+I encountered a web application that sends URL encoded messages under parameter "message". This Burp Suite extender helps to decode (URL Decode) message to be able to read it in plaintext and then the extender encodes (URL Encode) the message before sending to the server.
